@@ -1,0 +1,85 @@
+.head{
+    margin-top: 3vh;
+    border-bottom: 2px solid black;
+    height: 25vh;
+    background-color: rgba(223, 228, 234,0.9);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* box-shadow: 1px 1px 5px gray; */
+}
+.title{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.fields{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.fields input{
+    width: 350px;
+    height: 60px;
+    border: 2px solid #0984e3;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 5px rgb(99, 99, 99);
+}
+.fields button{
+    width: 120px;
+    border-radius: 15px;
+    font-size: 36px;
+    background-color: #0984e3;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    font-weight: bold;
+}
+.fields button:hover{
+    background-color: #3696e0;
+}
+.slogan h5{
+    margin-top: 8px;
+    margin-left: 95px;
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    background-color: #ffeaa7;
+}
+span.fname{
+    color: #2275b5;
+} 
+span.lname{
+    color: rgb(231, 34, 34);
+}
+@media only screen and (max-width: 850px){
+    .head{
+        margin-top: 1.2vh;
+        height: 31vh;
+    }
+    .title{
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .fields{
+        margin-top: 5px;
+    }
+    .fields input{
+        height: 60px;
+        font-size: 27px;
+    }
+    .fields button{
+        font-size: 40px;
+        width: 120px;
+    }
+    .slogan h5{
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 140px;
+        font-size: 24px;
+    }
+}

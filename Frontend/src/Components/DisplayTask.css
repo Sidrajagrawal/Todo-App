@@ -1,0 +1,85 @@
+.div-1,.div-3{
+    width: 24%;
+}
+.div-2{
+    width: 50%;
+    height:100vh;
+    /* border: 2px solid rebeccapurple; */
+}
+.back{
+    height: 95vh;
+    background-color:rgba(206, 214, 224,0.95);
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px black;
+}
+table{
+    width: 100%;
+}
+table td.checkbox{
+    /* border: 2px solid rebeccapurple; */
+    width: 10%;
+}
+table td.checkbox input{
+    height: 20px;
+    width: 17px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+table td.todo{
+    width: 40%;
+    padding-top: 5px;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    padding-left: 20px;
+}
+table td button{
+    margin-top: 3px;
+    height: 38px;
+    border: none;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 1.3px;
+    background-color: transparent;
+}
+table tr{
+    border-bottom: 2px solid gray;
+}
+.status{
+    /* border: 2px solid rebeccapurple; */
+    font-size: 24px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+.completed{
+    color: rgb(0, 162, 22);
+}
+.in-progress{
+    color: rgba(238, 90, 36,1.0);
+}
+.input-focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px rgba(0, 145, 255, 0.5);
+  }
+@media only screen and (max-width: 850px){
+    .div-1,.div-3{
+        width: 10%;
+    }
+    .div-2{
+        width: 80%;
+        height:100vh;
+    }
+    table td.todo{
+        font-size: 31px;
+        font-weight: 550;
+    }
+    table td.checkbox input{
+        height: 25px;
+        width: 20px;
+         margin-top: 13px; 
+    }
+    table td button{
+        font-size: 23px;
+    }
+}
